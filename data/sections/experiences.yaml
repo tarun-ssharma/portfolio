@@ -1,0 +1,56 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+  - company:
+      name: DeHaat
+      url: "https://agrevolution.in/"
+      location: New Delhi, India
+      # company overview
+      overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    positions:
+    - designation: Senior Software Engineer
+      start: Nov 2019
+      # don't provide end date if you are currently working there. It will be replaced by "Present"
+      # end: Dec 2020
+      # give some points about what was your responsibilities at the company.
+      responsibilities:
+        - Design and develop XYZ tool for ABC task
+        - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
+        - Lead backend team.
+
+  - company:
+      name: Oracle India Pvt. Ltd.
+      url: "https://www.preexample.com"
+      location: Hyderabad, India
+      overview: Oracle is a cloud technology company that provides organizations around the world with computing infrastructure and software.
+    positions:
+    - designation: Software Engineer
+      start: March 2016
+      end: May 2017
+      responsibilities:
+      - Write lots of example codes.
+      - Read lots of examples.
+      - See lots of example videos.
+
+  - company:
+      name: Goldman Sachs| India
+      url: "https://www.goldmansachs.com/worldwide/india/"
+      location: Bangalore, India
+      overview: Goldman Sachs is a leading global investment banking, securities and investment management firm.
+    positions:
+    - designation: Technology Engineer Intern
+      start: Jun 2015
+      end: Jan 2016
+      responsibilities:
+      - Count lost of interns.
+      - Count more interns.
+      - Count me as an intern.

@@ -1,0 +1,48 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Python
+  icon: "images/skills/python.png"
+  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  url: "https://kubernetes.io/"
+
+- name: Javascript
+  icon: "images/skills/js.png"
+  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  url: "https://kubernetes.io/"
+
+- name: Arduino
+  icon: "images/skills/arduino.png"
+  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
+  url: "https://prometheus.io/"
+
+- name: Linux
+  icon: "images/skills/linux.png"
+  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+
+- name: Git
+  icon: "images/skills/github.png"
+  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  url: "https://git-scm.com/"
+
+- name: C++
+  icon: "images/skills/c++.png"
+  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+
+- name: C
+  icon: "images/skills/c.png"
+  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+
+- name: Java
+  icon: "images/skills/java.png"
+  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."

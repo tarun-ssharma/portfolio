@@ -1,0 +1,17 @@
+.projects-section .card{
+    border-radius: 1rem;
+    border-color: blue;
+}
+
+.projects-section .card .card-img-xs{
+    width: 100% !important;
+    height: 250px !important;
+}
+
+.projects-section .card .d-flex{
+    display: block !important
+}
+
+.projects-section .card .card-title{
+    text-align: center;
+}

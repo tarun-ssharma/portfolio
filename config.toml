@@ -1,0 +1,52 @@
+baseURL = "http://blog.tarshar.com/"
+languageCode = "en-us"
+title = "Tarun's portfolio"
+theme = "toha"
+googleAnalytics = "UA-XXXXXXXXX-X"
+disqusShortname = "does-not-exist"
+enableEmoji = true
+
+[markup]
+
+  [markup.goldmark]
+
+    [markup.goldmark.renderer]
+    unsafe = true
+
+  [markup.tableOfContents]
+  startLevel = 2.0
+  endLevel = 6.0
+  ordered = false
+
+[params]
+copyright = "© 2020 Copyright."
+description = "Portfolio and personal blog of Tarun Sharma."
+background = "images/background.jpg"
+gitRepo = "https://github.com/hossainemruz/toha-example-site"
+enableBlogPost = true
+enableTOC = true
+
+  [params.logo]
+  main = "/assets/images/main-logo.png"
+  inverted = "/assets/images/inverted-logo.png"
+
+  [params.newsletter]
+  enable = true
+
+  [params.author]
+  name = "Tarun Sharma"
+  nickname = "Tarun"
+  image = "images/avatar.png"
+  greeting = "Hi, I am"
+  summary = [
+    "I am a Developer",
+    "I like puzzles"
+  ]
+
+    [params.author.contactInfo]
+    email = "1starun8@gmail.com"
+    phone = "91-7993267390"
+
+  [[params.customMenus]]
+  name = "Notes"
+  url = "/notes"
