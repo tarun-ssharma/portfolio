@@ -5,7 +5,6 @@ theme = "toha"
 googleAnalytics = "UA-XXXXXXXXX-X"
 disqusShortname = "does-not-exist"
 enableEmoji = true
-
 [markup]
 
   [markup.goldmark]
@@ -27,8 +26,8 @@ enableBlogPost = true
 enableTOC = true
 
   [params.logo]
-  main = "/assets/images/main-logo.png"
-  inverted = "/assets/images/inverted-logo.png"
+  main = "/images/main-logo.png"
+  inverted = "/images/inv-logo.png"
 
   [params.newsletter]
   enable = true

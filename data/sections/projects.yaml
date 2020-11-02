@@ -18,56 +18,160 @@ buttons:
   filter: "academic"
 - name: Hobby
   filter: "hobby"
+- name: Arduino
+  filter: "arduino"
+- name: Python
+  filter: "python"
+- name: machine-learning
+  filter: "machine-learning"
+- name: game
+  filter: "game"
+- name: computer-vision
+  filter: "computer-vision"
+- name: api
+  filter: "api"
+- name: modelling
+  filter: "modelling"
+- name: genomics
+  filter: "genomics"
+- name: creative
+  filter: "p5js"
+- name: web dev
+  filter: "web-dev"
+- name: A.I.
+  filter: "ai"
 
 # your projects
 projects:
-- name: What appeals to 21 pilots audiences?
-  logo: images/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
-
-- name: What attributes do people seek while choosing listeners on mental health websites
-  logo: images/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
-
-- name: Youtube ad skipper
-  logo: images/projects/youtube-ad-skipper.jpeg
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning","academic"]
-
-- name: Healthy sandwich truck prospects in Silicon Valley
+- name: ai-learns-pac-man
   role: Owner
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Something.
-  tags: ["academic","iot"]
+  timeline: "2020"
+  logo: images/projects/pac_man.png
+  repo: https://github.com/tarun-ssharma/ai-learns-pac-man
+  summary: Using neuro-evolution technique NEAT to teach ai to play my own version of pac-man built using the python library PyGame.
+  tags: ["python", "hobby", "game","ai"]
+
+- name: fractal-generator
+  role: Owner
+  timeline: "2020"
+  logo: images/projects/fractal.png
+  repo: https://github.com/tarun-ssharma/fractal-generator
+  summary: Using p5js to generate fractals like Koch Curve.
+  tags: ["p5js", "hobby","node"]
+
+- name: delivery-service-simulation
+  role: Owner
+  timeline: "2020"
+  repo: https://github.com/tarun-ssharma/delivery-service-simulation
+  summary: Simulating food delivery process to estimate and optimize the delivery time using python library SimPy.
+  tags: ["python", "hobby", "modelling"]
+
+- name: posture-reinforcer
+  logo: images/projects/ckt_diagram.png
+  role: Owner
+  timeline: "2020"
+  repo: https://github.com/tarun-ssharma/posture-reinforcer
+  summary: Uses an arduino uno, a distance sensor, and a buzzer to regularly check for my posture and estimate if my back is curved a bit too much. If it is, the buzzer goes off to remind me to sit straight.
+  tags: ["arduino", "hobby"]
+
+- name: olx-new-messages-notifier
+  role: Owner
+  timeline: "2020"
+  repo: https://github.com/tarun-ssharma/olx-new-messages-notifier
+  summary: A LED notifier that'll check if there are any new messages in my olx account. That way, I don't have to worry about missing out on messages any more!
+  tags: ["arduino", "hobby", "python"]
+
+- name: silicon-valley-sandwich-truck-prospects
+  role: Owner
+  timeline: "2020"
+  logo: images/projects/sandwich-truck.jpg
+  repo: https://github.com/tarun-ssharma/silicon-valley-sandwich-truck-prospects
+  summary: Using machine learning to decide which cities in Silicon Valley are suitable to open a healthy sandwich truck.
+  tags: ["python", "hobby", "machine-learning"]
+
+- name: pac-man
+  role: Owner
+  timeline: "2020"
+  logo: images/projects/pac_man.png
+  repo: https://github.com/tarun-ssharma/pac-man
+  summary: Using python library PyGame to build my version of pacman.
+  tags: ["python", "hobby", "game"]
+
+- name: songs-analysis-21-pilots
+  role: Owner
+  timeline: "2020"
+  logo: images/projects/21pilots.jpeg
+  repo: https://github.com/tarun-ssharma/music-analysis-21-pilots
+  summary: Analyzing 21 pilots songs using Spotify API.
+  tags: ["python", "hobby", "api","machine-learning"]
+
+- name: prescription-reader
+  role: Owner
+  timeline: "2020"
+  logo: images/projects/prescription-reader.jpg
+  repo: https://github.com/tarun-ssharma/prescription-reader
+  summary: Using computer vision to read the medicines off of a prescription and add them to my cart.
+  tags: ["python", "hobby", "computer-vision"]
+
+- name: model-covid-spread
+  role: Owner
+  timeline: "2020"
+  logo: images/projects/covid.jpg
+  repo: https://github.com/tarun-ssharma/model-covid-spread
+  summary: COVID-19 infection spread modelling using python library MESA.
+  tags: ["python", "hobby", "modelling"]
+
+- name: one-bad-apple
+  role: Owner
+  timeline: "2020"
+  logo: images/projects/bad_apple.jpg
+  repo: https://github.com/tarun-ssharma/one-bad-apple
+  summary: Can 'One bad apple' really spoil the bunch? We find out using python.
+  tags: ["python", "hobby", "modelling"]
+
+- name: youtube-ad-skipper
+  logo: images/projects/youtube-ad-skipper.jpeg
+  role: Owner
+  timeline: "2020"
+  repo: https://github.com/tarun-ssharma/Youtube-ad-skipper
+  summary: Using computer vision to skip youtube ads.
+  tags: ["python", "hobby","computer-vision"]
+
+- name: survive-the-pandemic
+  logo: images/projects/covid_game.PNG
+  role: Owner
+  timeline: "2020"
+  repo: https://github.com/tarun-ssharma/survive-the-pandemic
+  summary: Game to enjoy some social distancing from comforts of your home!
+  tags: ["p5js", "hobby","game"]
+
+- name: mini-ecommerce-app
+  role: Owner
+  timeline: "2020"
+  repo: https://github.com/tarun-ssharma/mini-ecommerce-app
+  summary: My very own ecommerce app with Flask and Python.
+  tags: ["python", "hobby","flask","web-dev"]
 
 - name: Show me dogs
-  logo: images/projects/no-code.png
+  logo: images/projects/dogs.jpg
   role: Owner
-  timeline: "Oct 2019 - Dec 2019"
+  timeline: "Oct 2018 - Dec 2018"
   repo: https://github.com/kelseyhightower/nocode
   #url: ""
   summary: A google chrome extension to set random dog pictures in new tab background.
   tags: ["hobby", "fun"]
 
-- name: Survive the pandemic
-  logo: images/projects/covid_game.PNG
+- name: fetch-all-links
   role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A game in light of the recent COVID-19 pandemic.
-  tags: ["hobby","hugo","theme","professional"]
+  logo: images/projects/fetch-all-links.png
+  timeline: "2020"
+  repo: https://github.com/tarun-ssharma/fetch-all-links
+  summary: Chrome extension to store urls of all open tabs in a json! No more worrying!
+  tags: ["chrome-extension", "hobby", "javascript","web-dev"]
+
+- name: water-reminder-tasks-notifier
+  role: Owner
+  timeline: "2020"
+  repo: https://github.com/tarun-ssharma/water-reminder-tasks-notifier
+  summary: Desktop notifier in java to notify me to drink my water and other reminders I set!
+  tags: ["desktop-notifier", "hobby", "java"]

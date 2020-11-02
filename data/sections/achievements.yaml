@@ -10,15 +10,12 @@ section:
 
 # Your achievements achievements
 achievements:
-- title: Best Presenter
-  image: images/achievements/presenter.jpg
-  summary: Best presenter in the 2020 XYZ conference.
-- title: Champion
-  image: images/achievements/sport.jpg
-  summary: Champion in cycling inter-city cycling championship 2020.
-- title: Graduation
-  image: images/achievements/graduation-cap.jpg
-  summary: Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.
-- title: Award Winner
-  image: images/achievements/woman-winner.jpg
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus architecto minus facere vero?
+- title: AIR 1035 in IIT-JEE 2013
+  image: images/iit-jee.jpg
+  summary: Secured an All India Rank of 1035 among 1,26,000+ appeared students in IIT-JEE,2013
+- title: KVPY Fellow
+  image: images/kvpy.jpeg
+  summary: Selected for KVPY fellowship in 2013 by Dept. of Science and Technology, Govt. of India.
+- title: NTSE Fellow
+  image: images/ntse.jpg
+  summary: Awarded the NTSE scholarship in 2009 by NCERT, India for my education until college.

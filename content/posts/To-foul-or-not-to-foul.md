@@ -2,6 +2,7 @@
 title: "To Foul or Not to Foul"
 date: 2020-10-01T18:03:59+05:30
 draft: true
+weight: 1
 ---
 The NBA playoffs are going on. The bubble has given us many opportunities of witnessing close games.
 The most recent one being the Game 2 of western conference finals. Lakers were trailing by one point, with 2.1 seconds left on the shot clock.

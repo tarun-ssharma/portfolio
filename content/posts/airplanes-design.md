@@ -2,6 +2,7 @@
 title: "Airplanes Design"
 date: 2020-09-19T12:52:39+05:30
 draft: true
+weight: 1
 ---
 
 https://youtu.be/edLnZgF9mUg?t=1325

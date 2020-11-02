@@ -1,0 +1,9 @@
+<div
+  class="achievement-entry text-center"
+>
+  <img src='{{ strings.TrimSuffix "/" site.BaseURL }}{{ .image | relURL }}' style="max-height:100%; max-width:100%; height:100%; width:100%"></img>
+  <div class="caption" id="caption">
+    <h4>{{ .title }}</h4>
+    <p>{{ .summary | markdownify }}</p>
+  </div>
+</div>

@@ -1,3 +1,9 @@
+.projects-section .tag_buttons{
+    color: blue !important;
+    border: none !important;
+    
+}
+
 .projects-section .card{
     border-radius: 1rem;
     border-color: blue;

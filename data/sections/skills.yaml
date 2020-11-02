@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Skills
+  name: Courses
   id: skills
   enable: true
   weight: 2
@@ -11,38 +11,52 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Python
-  icon: "images/skills/python.png"
+- name: Deep Neural Networks with PyTorch by IBM
+  icon: "images/skills/coursera.jpeg"
   summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+  url: "https://www.coursera.org/account/accomplishments/verify/DVLY5RYW9ULZ"
 
-- name: Javascript
-  icon: "images/skills/js.png"
+- name: IBM Data Science Specialization
+  icon: "images/skills/coursera.jpeg"
   summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+  url: "https://www.coursera.org/account/accomplishments/specialization/Q54SWWSJNJ28"
 
-- name: Arduino
-  icon: "images/skills/arduino.png"
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  url: "https://prometheus.io/"
+- name: Python for Data Science and AI
+  icon: "images/skills/coursera.jpeg"
+  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  url: "https://www.youracclaim.com/badges/2e6f2dab-5b0a-4f3e-a52d-e70838f1a4cc/linked_in_profile"
 
-- name: Linux
-  icon: "images/skills/linux.png"
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+- name: Python for Genomic Data Science
+  icon: "images/skills/coursera.jpeg"
+  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  url: "https://www.coursera.org/account/accomplishments/verify/CFE3557QGPGX"
 
-- name: Git
-  icon: "images/skills/github.png"
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
+- name: Introduction to Genomic Technologies
+  icon: "images/skills/coursera.jpeg"
+  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  url: "https://www.coursera.org/account/accomplishments/verify/J6L84TU3DNZ3"
 
-- name: C++
-  icon: "images/skills/c++.png"
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+- name: Interfacing with the Arduino
+  icon: "images/skills/coursera.jpeg"
+  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  url: "https://www.coursera.org/account/accomplishments/verify/CECTGH3D5A2J"
 
-- name: C
-  icon: "images/skills/c.png"
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+- name: The Arduino Platform and C Programming
+  icon: "images/skills/coursera.jpeg"
+  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  url: "https://www.coursera.org/account/accomplishments/verify/XS9T8ZNEGG8F"
 
-- name: Java
-  icon: "images/skills/java.png"
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+- name: Introduction to the Internet of Things and Embedded Systems
+  icon: "images/skills/coursera.jpeg"
+  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  url: "https://www.coursera.org/account/accomplishments/verify/H7SQTBMVRLUG"
+
+- name: Introduction to Deep Learning & Neural Networks with Keras by IBM
+  icon: "images/skills/coursera.jpeg"
+  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  url: "https://www.coursera.org/account/accomplishments/verify/BTGNV2QC8P22"
+
+- name: MATLAB Onramp
+  icon: "images/skills/mathworks.jpeg"
+  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  url: "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=b6d639fd-2cc6-44e3-a96e-f6d691f91310"

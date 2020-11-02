@@ -3,6 +3,7 @@ title: "2020 05 12 Github Pages Site Using Jekyll"
 date: 2020-09-18T15:31:31+05:30
 draft: true
 categories: jekyll github-pages github-personal-website
+weight: 1
 excerpt_separator: <!--more-->
 ---
 **TL;DR** Recently I learned how to build my own free personal website with the help of Github. This requires no web hosting or CMS of any kind. Just follow the 7 steps that I’ll cover below.

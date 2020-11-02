@@ -2,6 +2,7 @@
 title: "Futuristic Cars"
 date: 2020-09-19T12:51:42+05:30
 draft: true
+weight: 1
 ---
 Can cushion separating vehicles reduce accidents?
 - how to? magnetic/ rubber / 

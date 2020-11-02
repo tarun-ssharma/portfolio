@@ -14,14 +14,14 @@
     <!-- <div class="col-sm-6">-->
     <div class="col-sm-12">
       <h3 class="p-1">{{ $author.name }}</h3>
-      {{ if .designation }}
-      <h5 class="p-1">
-        {{ .designation }}
-        {{ if .company }}
-        {{ i18n "at"}} <a href="{{ .company.url }}">{{ .company.name }}</a>
-        {{ end }}
-      </h5>
-      {{ end }}
+<!--      {{ if .designation }}-->
+<!--      <h5 class="p-1">-->
+<!--        {{ .designation }}-->
+<!--        {{ if .company }}-->
+<!--        {{ i18n "at"}} <a href="{{ .company.url }}">{{ .company.name }}</a>-->
+<!--        {{ end }}-->
+<!--      </h5>-->
+<!--      {{ end }}-->
       <p class="p-1 text-justify">
         {{ .summary | markdownify }}
       </p>
@@ -44,15 +44,5 @@
       >
       {{ end }}
     </div>
-    <!-- soft skills circular-progressbar -->
-    <!--
-    <div class="col-sm-6 pt-5 pl-md-4 pl-sm-3 pt-sm-0">
-      <div class="row">
-        {{ range .softSkills }}
-          {{ partial "misc/soft-skills.html" . }}
-        {{ end }}
-      </div>
-    </div>
-    -->
   </div>
 </div>

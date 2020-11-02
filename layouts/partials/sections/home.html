@@ -20,7 +20,7 @@
   {{ $backgroundImage = site.Params.background }}
 {{ end }}
 
-{{ $authorImage:= "/assets/images/default-avatar.png" }}
+{{ $authorImage:= "/images/avatar.png" }}
 {{ if $author.image }}
   {{ $authorImage = $author.image }}
 {{ end }}
@@ -30,7 +30,7 @@
     class="background container-fluid"
     style="background-image: url('{{ strings.TrimSuffix "/" site.BaseURL }}{{ $backgroundImage | relURL }}');"
   ></div>-->
-    <canvas id="myCanvas"></canvas>
+    <canvas id="myCanvas" resize="true"></canvas>
   <div class="container content text-center">
     <img src="{{ $authorImage | relURL }}"
       class="rounded-circle mx-auto d-block img-fluid"
