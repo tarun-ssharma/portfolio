@@ -1,4 +1,4 @@
-baseURL = "https://portfolio.tarshar.com/"
+baseURL = "http://portfolio.tarshar.com/"
 languageCode = "en-us"
 title = "Tarun's portfolio"
 theme = "toha"
