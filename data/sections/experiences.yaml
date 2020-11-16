@@ -15,42 +15,38 @@ experiences:
       url: "https://agrevolution.in/"
       location: New Delhi, India
       # company overview
-      overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+      overview: Contributing as a backend developer towards making an end-to-end solution for Indian farmers' needs.
     positions:
     - designation: Senior Software Engineer
-      start: Nov 2019
-      # don't provide end date if you are currently working there. It will be replaced by "Present"
-      # end: Dec 2020
-      # give some points about what was your responsibilities at the company.
-      responsibilities:
-        - Design and develop XYZ tool for ABC task
-        - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-        - Lead backend team.
+      start: 2020
+
+  - company:
+      name: Mentorz
+      url: "https://www.mentorz.com/"
+      location: Remote
+      # company overview
+      overview: Researched about various possibilities and toolkits like kaldi which suit the need of this growing startup's speech recognition features.
+    positions:
+      - designation: Machine Learning Intern
+        start: 2020
+        end: 2020
 
   - company:
       name: Oracle India Pvt. Ltd.
-      url: "https://www.preexample.com"
+      url: "https://www.oracle.com/in"
       location: Hyderabad, India
-      overview: Oracle is a cloud technology company that provides organizations around the world with computing infrastructure and software.
+      overview: Learnt various technical and non-technical aspects of an e-commerce product. Helped detect and resolve performance bottleneck in various modules.
     positions:
     - designation: Software Engineer
-      start: March 2016
-      end: May 2017
-      responsibilities:
-      - Write lots of example codes.
-      - Read lots of examples.
-      - See lots of example videos.
+      start: 2017
+      end: 2019
 
   - company:
       name: Goldman Sachs| India
       url: "https://www.goldmansachs.com/worldwide/india/"
       location: Bangalore, India
-      overview: Goldman Sachs is a leading global investment banking, securities and investment management firm.
+      overview: Created an application which solved an issue revolving around huge number of database writes resulting in server overload on particular days.
     positions:
     - designation: Technology Engineer Intern
-      start: Jun 2015
-      end: Jan 2016
-      responsibilities:
-      - Count lost of interns.
-      - Count more interns.
-      - Count me as an intern.
+      start: 2016
+      end: 2016

@@ -30,7 +30,7 @@ enableTOC = true
   inverted = "/images/inv-logo.png"
 
   [params.newsletter]
-  enable = true
+  enable = false
 
   [params.author]
   name = "Tarun Sharma"

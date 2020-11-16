@@ -2,7 +2,7 @@ var canvas = document.getElementById('myCanvas');
 
 var voronoi =  new Voronoi();
 var spotColor = new Color('red');
-inc = true
+var inc = true
 var points = generatePoints(view.size/200, true)
 
 var margin = 20;
@@ -58,13 +58,18 @@ function renderDiagram() {
   }
 }
 
+
 function createPath(pts, center) {
   var path = new Path();
   path.fillColor = spotColor;
-  if(spotColor.blue >= 0.8){inc = false}
+  if(spotColor.blue >= 0.7){inc = false}
   if(spotColor.blue <= 0.1){inc = true}
-  if(inc == true){spotColor = spotColor + new Color(0,0,.001)}
-  else{spotColor = spotColor - new Color(0,0,.001)}
+  if(inc == true){
+    spotColor = spotColor + new Color(0,0,0.0001)
+    }
+  else {
+    spotColor = spotColor - new Color(0,0,0.0001)
+  }
   path.closed = true;
 
   for (var i = 0, l = pts.length; i < l; i++) {

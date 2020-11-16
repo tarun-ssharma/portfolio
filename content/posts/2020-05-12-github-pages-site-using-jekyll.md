@@ -1,10 +1,11 @@
 ---
-title: "2020 05 12 Github Pages Site Using Jekyll"
+title: "How to create a Github Pages Site Using Jekyll"
 date: 2020-09-18T15:31:31+05:30
 draft: true
 weight: 1
 categories: jekyll github-pages github-personal-website
 excerpt_separator: <!--more-->
+hero: /images/posts/jekyll.png
 ---
 **TL;DR** Recently I learned how to build my own free personal website with the help of Github. This requires no web hosting or CMS of any kind. Just follow the 7 steps that I’ll cover below.
 <!--more-->
@@ -20,12 +21,12 @@ Turns out, there definitely is a way to build your very own free github website.
 **Disclaimer**: This will only work if you’re looking for a minimalistic option like me. If your requirements dictate usage of dynamic pages, usage of databases and such, then a github personal website might not be the best bet.
 
 1. (**Optional**) Getting a domain name:
-	+ You can purchase a domain online from sites like Bluehost, Namecheap etc.
+	* You can purchase a domain online from sites like Bluehost, Namecheap etc.
 	+ Useful if you want your own custom site url and don't want the *github.io* part which is attached inadvertently to every github pages site url.
 	+ Of course, this step will cost you, but you can skip it if you want.
 
 2. Setting up a github repository to serve as the base for your github personal website:
-	* Create a new repository with your github account, say *new_repo*
+	- Create a new repository with your github account, say *new_repo*
 	* (**Optional but recommended**) [Create a new branch][create-branch] from the *master* branch for *new_repo*, named *gh-pages*. Make *gh-pages* [the default branch][default-branch] for this repo.
 	* (**Optional**) Go to *Settings>Options>GitHub Pages* section on the repo page. There you'll see the *Source* branch (*gh-pages*) which will be used to built the github website associated with this repo. Also, you'll see the *Custom Domain* which you can set to your own custom subdomain, using [this guide][custom-domain-guide]. If you don't set any custom domain, your github pages website will be hosted at **https://*username*.github.io/*new_repo*/**. Don't forget to enable the *Enforce HTTPS* checkbox, since [having https matters][https-matters].
 
@@ -36,6 +37,7 @@ Turns out, there definitely is a way to build your very own free github website.
 	#=> new-repo-url is the path to your github repository, and 
 	git needs this path to clone it to your local machine.
 	```
+
 	You can clone the repository into any folder. Let's assume you cloned it into a folder named *new_repo*.
 
 4. Setup jekyll and its requirements:

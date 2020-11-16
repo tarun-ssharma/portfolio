@@ -2,9 +2,10 @@
 <div
   class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
   data-category='all, {{ delimit  .tags ","}}'
+
 >
   <div class="card mt-1">
-    <div class="card" data-aos="flip-left">
+    <div class="card"> <!-- include data-aos here -->
       <a class="card-header" href="{{ if .repo }}{{ .repo }}{{ else if .url }}{{ .url }}{{ else }}#{{ end }}">
         <div>
           <div class="d-flex">

@@ -13,50 +13,50 @@ section:
 skills:
 - name: Deep Neural Networks with PyTorch by IBM
   icon: "images/skills/coursera.jpeg"
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  summary: "Learnt how to develop deep learning models using PyTorch."
   url: "https://www.coursera.org/account/accomplishments/verify/DVLY5RYW9ULZ"
 
 - name: IBM Data Science Specialization
   icon: "images/skills/coursera.jpeg"
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  summary: "Learnt about all the steps involved in a data science process including data gathering, visualization, analysis, developing a machine learning model and analyzing performance of the model."
   url: "https://www.coursera.org/account/accomplishments/specialization/Q54SWWSJNJ28"
 
 - name: Python for Data Science and AI
   icon: "images/skills/coursera.jpeg"
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  summary: "Core python libraries useful in data science like Matplotlib, Bokeh etc."
   url: "https://www.youracclaim.com/badges/2e6f2dab-5b0a-4f3e-a52d-e70838f1a4cc/linked_in_profile"
 
 - name: Python for Genomic Data Science
   icon: "images/skills/coursera.jpeg"
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  summary: "Learnt how to use python to analyze genomes and find existing matches if any."
   url: "https://www.coursera.org/account/accomplishments/verify/CFE3557QGPGX"
 
 - name: Introduction to Genomic Technologies
   icon: "images/skills/coursera.jpeg"
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  summary: "Learnt about central dogma of molecular biology, human genome project and modern tools used in genomics."
   url: "https://www.coursera.org/account/accomplishments/verify/J6L84TU3DNZ3"
 
 - name: Interfacing with the Arduino
   icon: "images/skills/coursera.jpeg"
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  summary: "Learnt how to use sensors and shields to feed sensory data to arduino."
   url: "https://www.coursera.org/account/accomplishments/verify/CECTGH3D5A2J"
 
 - name: The Arduino Platform and C Programming
   icon: "images/skills/coursera.jpeg"
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  summary: "Learnt the basics of programming an arduino and about the arduino IDE."
   url: "https://www.coursera.org/account/accomplishments/verify/XS9T8ZNEGG8F"
 
 - name: Introduction to the Internet of Things and Embedded Systems
   icon: "images/skills/coursera.jpeg"
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  summary: "Learnt about trends that lead to IoT boom and various components and considerations involved in building an IOT device."
   url: "https://www.coursera.org/account/accomplishments/verify/H7SQTBMVRLUG"
 
 - name: Introduction to Deep Learning & Neural Networks with Keras by IBM
   icon: "images/skills/coursera.jpeg"
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  summary: "Learnt how to perform deep learning and create deep neural networks with Keras."
   url: "https://www.coursera.org/account/accomplishments/verify/BTGNV2QC8P22"
 
 - name: MATLAB Onramp
   icon: "images/skills/mathworks.jpeg"
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  summary: "Introduction to MATLAB."
   url: "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=b6d639fd-2cc6-44e3-a96e-f6d691f91310"
