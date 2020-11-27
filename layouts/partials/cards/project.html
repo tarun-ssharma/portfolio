@@ -7,12 +7,11 @@
   <div class="card mt-1">
     <div class="card"> <!-- include data-aos here -->
       <a class="card-header" href="{{ if .repo }}{{ .repo }}{{ else if .url }}{{ .url }}{{ else }}#{{ end }}">
-        <div>
+        <div style="display: grid;">
           <div class="d-flex">
             {{ if .logo }}
             <img class="card-img-xs" src="{{ .logo | relURL }}" alt="{{ .name }}" />
             {{ end }}
-            <h5 class="card-title mb-0">{{ .name }}</h5>
           </div>
           <div class="sub-title">
             <span>{{ .role }}</span>
@@ -21,6 +20,7 @@
         </div>
       </a>
       <div class="card-body text-justify pt-1 pb-1">
+        <h5 class="card-title mb-0" style="color: olivedrab;">{{ .name }}</h5>
         <p style="font-weight: bold">{{ .summary | markdownify }}</p>
           <span class="float-left">
               <div>

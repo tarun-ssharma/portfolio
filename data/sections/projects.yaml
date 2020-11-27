@@ -43,15 +43,15 @@ buttons:
 
 # your projects
 projects:
-- name: ai-learns-pac-man
+- name: AI learns to play my pac-man
   role: Owner
   timeline: "2020"
-  logo: images/projects/pac_man.png
+  logo: images/projects/pac-man.gif
   repo: https://github.com/tarun-ssharma/ai-learns-pac-man
   summary: Using neuro-evolution technique NEAT to teach ai to play my own version of pac-man built using the python library PyGame.
   tags: ["python", "hobby", "game","ai"]
 
-- name: fractal-generator
+- name: Generating Snowflakes
   role: Owner
   timeline: "2020"
   logo: images/projects/fractal.png
@@ -59,29 +59,29 @@ projects:
   summary: Using p5js to generate fractals like Koch Curve.
   tags: ["p5js", "hobby","node"]
 
-- name: delivery-service-simulation
+- name: Food Delivery Service Simulation
   role: Owner
   timeline: "2020"
   repo: https://github.com/tarun-ssharma/delivery-service-simulation
   summary: Simulating food delivery process to estimate and optimize the delivery time using python library SimPy.
   tags: ["python", "hobby", "modelling"]
 
-- name: posture-reinforcer
-  logo: images/projects/ckt_diagram.png
+- name: Re-inforce my posture
+  logo: images/projects/posture_reinf.jpg
   role: Owner
   timeline: "2020"
   repo: https://github.com/tarun-ssharma/posture-reinforcer
   summary: Uses an arduino uno, a distance sensor, and a buzzer to regularly check for my posture and estimate if my back is curved a bit too much. If it is, the buzzer goes off to remind me to sit straight.
   tags: ["arduino", "hobby"]
 
-- name: olx-new-messages-notifier
+- name: OLX Marketplace Notifier
   role: Owner
   timeline: "2020"
   repo: https://github.com/tarun-ssharma/olx-new-messages-notifier
   summary: A LED notifier that'll check if there are any new messages in my olx account. That way, I don't have to worry about missing out on messages any more!
   tags: ["arduino", "hobby", "python"]
 
-- name: silicon-valley-sandwich-truck-prospects
+- name: Silicon Valley Sandwich Truck Prospects
   role: Owner
   timeline: "2020"
   logo: images/projects/sandwich-truck.jpg
@@ -89,7 +89,7 @@ projects:
   summary: Using machine learning to decide which cities in Silicon Valley are suitable to open a healthy sandwich truck.
   tags: ["python", "hobby", "machine-learning"]
 
-- name: pac-man
+- name: My own Pac Man
   role: Owner
   timeline: "2020"
   logo: images/projects/pac_man.png
@@ -97,7 +97,7 @@ projects:
   summary: Using python library PyGame to build my version of pacman.
   tags: ["python", "hobby", "game"]
 
-- name: songs-analysis-21-pilots
+- name: 21 Pilots and what interests their fan base
   role: Owner
   timeline: "2020"
   logo: images/projects/21pilots.jpeg
@@ -105,7 +105,7 @@ projects:
   summary: Analyzing 21 pilots songs using Spotify API.
   tags: ["python", "hobby", "api","machine-learning"]
 
-- name: prescription-reader
+- name: Prescription Reader
   role: Owner
   timeline: "2020"
   logo: images/projects/prescription-reader.jpg
@@ -113,7 +113,7 @@ projects:
   summary: Using computer vision to read the medicines off of a prescription and add them to my cart.
   tags: ["python", "hobby", "computer-vision"]
 
-- name: model-covid-spread
+- name: Modelling COVID spread
   role: Owner
   timeline: "2020"
   logo: images/projects/covid.jpg
@@ -121,7 +121,7 @@ projects:
   summary: COVID-19 infection spread modelling using python library MESA.
   tags: ["python", "hobby", "modelling"]
 
-- name: one-bad-apple
+- name: One bad apple
   role: Owner
   timeline: "2020"
   logo: images/projects/bad_apple.jpg
@@ -129,7 +129,7 @@ projects:
   summary: Can 'One bad apple' really spoil the bunch? We find out using python.
   tags: ["python", "hobby", "modelling"]
 
-- name: youtube-ad-skipper
+- name: Youtube ads skipper
   logo: images/projects/youtube-ad-skipper.jpeg
   role: Owner
   timeline: "2020"
@@ -137,15 +137,39 @@ projects:
   summary: Using computer vision to skip youtube ads.
   tags: ["python", "hobby","computer-vision"]
 
-- name: survive-the-pandemic
-  logo: images/projects/covid_game.PNG
+- name: Survive the pandemic!
+  logo: images/projects/covid_game.gif
   role: Owner
   timeline: "2020"
   repo: https://github.com/tarun-ssharma/survive-the-pandemic
   summary: Game to enjoy some social distancing from comforts of your home!
   tags: ["p5js", "hobby","game"]
 
-- name: mini-ecommerce-app
+- name: A* maze path finder
+  logo: images/projects/a_star.gif
+  role: Owner
+  timeline: "2020"
+  repo: https://github.com/tarun-ssharma/A-star-grid-path-finder
+  summary: Finds out a feasible path from start to end in a grid.
+  tags: ["p5js", "hobby","game"]
+
+- name: Discord Sequence Bot
+  logo: images/projects/discord.png
+  role: Owner
+  timeline: "2020"
+  repo: https://github.com/tarun-ssharma/discord-sequence-bot
+  summary: A discord bot which completes the sequence provided by you!
+  tags: ["python", "hobby"]
+
+- name: Books suggested on r/suggestmeabook
+  logo: images/projects/reddit_books.png
+  role: Owner
+  timeline: "2020"
+  repo: https://github.com/tarun-ssharma/reddit-books
+  summary: Fetches books suggested in all top level comments of subreddit r/suggestmeabook.
+  tags: ["python", "hobby"]
+
+- name: My own mini-ecommerce app
   role: Owner
   timeline: "2020"
   repo: https://github.com/tarun-ssharma/mini-ecommerce-app
@@ -161,7 +185,7 @@ projects:
   summary: A google chrome extension to set random dog pictures in new tab background.
   tags: ["hobby", "fun"]
 
-- name: fetch-all-links
+- name: Fetch URL of all open tabs
   role: Owner
   logo: images/projects/fetch-all-links.png
   timeline: "2020"
@@ -169,7 +193,7 @@ projects:
   summary: Chrome extension to store urls of all open tabs in a json! No more worrying!
   tags: ["chrome-extension", "hobby", "javascript","web-dev"]
 
-- name: water-reminder-tasks-notifier
+- name: Remind me to drink water!
   role: Owner
   timeline: "2020"
   repo: https://github.com/tarun-ssharma/water-reminder-tasks-notifier

@@ -1,7 +1,6 @@
 ---
 title: "How to create a Github Pages Site Using Jekyll"
 date: 2020-09-18T15:31:31+05:30
-draft: true
 weight: 1
 categories: jekyll github-pages github-personal-website
 excerpt_separator: <!--more-->

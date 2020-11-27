@@ -1,7 +1,6 @@
 ---
 title: "Kettle"
 date: 2020-09-19T12:40:04+05:30
-draft: true
 weight: 1
 hero: /images/posts/kettle.jpeg
 ---
